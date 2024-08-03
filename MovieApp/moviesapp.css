@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.newWrapper{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+}
+.navBar{
+    width: 90vw;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding-top: 20px;
+
+}
+.navBar ul li {
+    list-style: none;
+    display: inline-block;
+    gap: 20px;
+}
+.navBar ul a{
+    width: 70vw;
+}
+.navBar ul li a{
+    text-decoration: none;
+    color: white;
+    transition-duration: 0.2s;
+    font-size: 14px;
+    padding: 10px 20px;
+}
+.navBar ul li a:hover{
+    background-color: white;
+    color: black;
+}
+.navBar p{
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+}
+.navBar button{
+    border: 1px transparent;
+    width: 7vw;
+    height: 3vw;
+    font-size: 13px;
+}
+.content {
+    justify-content: space-between;
+    text-align: center;
+    padding-top: 13%;
+}
+.content button{
+    width: 6%;
+    height: 30px;
+    background-color: red;
+    color: white;
+    border: 1px transparent;
+}
+.content h1{
+    color: white;
+    padding-bottom: 23px;
+    font-size: 28px;
+}
+.content p{
+    padding-bottom: 15px ;
+    color: white;
+    font-size: 18px;
+}
+.content input{
+    width: 350px;
+    height: 30px;
+}
+.moviesContainer{
+    width: 100vw;
+    display: flex;
+    background: black;
+}
+.moviesContainer .images img{
+    width: 300px;
+    background-color: black;
+    margin-left: 15px;
+}
+.moviesContainer .imagesTwo img{
+    width: 300px;
+    margin-left: 15px;
+}
+.moviesContainer .imagesThree img{
+    width: 300px;
+    margin-left: 15px;
+}
+.moviesContainer .images h3 {
+    color: white;
+    margin-left: 12px;
+}
+.moviesContainer .imagesTwo h3{
+    color: white;
+    margin-left: 12px;
+}
+.moviesContainer .imagesThree h3{
+    color: white;
+    margin-left: 12px;
+}
+.moviesContainer .images p{
+    /*color: white;*/
+    margin-left: 12px;
+    padding-top: 10px;
+}
+.moviesContainer .imagesTwo p{
+    /*color: white;*/
+    margin-left: 12px;
+    padding-top: 10px;
+}
+.moviesContainer .imagesThree p{
+    /*color: white;*/
+    margin-left: 12px;
+    padding-top: 10px;
+}
+
